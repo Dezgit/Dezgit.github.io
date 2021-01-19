@@ -1,2 +1,862 @@
+<!DOCTYPE HTML>
+<html lang="en">
 
-Ultron Staging 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>THE FOOD CONSULTANT INDIA | Home Page</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+    <!-- Loader -->
+
+    <div class="loader">
+        <div class="page-lines">
+            <div class="container">
+                <div class="col-line col-xs-4">
+                    <div class="line"></div>
+                </div>
+                <div class="col-line col-xs-4">
+                    <div class="line"></div>
+                </div>
+                <div class="col-line col-xs-4">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="loader-brand">
+            <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+
+    <header id="top" class="header-home">
+        <div class="brand-panel">
+            <a href="#top" class="brand js-target-scroll">
+                THE FOOD <br>CONSULTANT INDIA<span class="text-primary">.</span>
+        </a>
+            <div class="brand-name">HOME</div>
+            <div class="slide-number">
+                <span class="current-number text-primary">0<span class="count">1</span></span>
+                <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
+            </div>
+        </div>
+        <div class="header-phone">(+91) 94867 86527</div>
+        <div class="vertical-panel"></div>
+        <div class="vertical-panel-content">
+            <div class="vertical-panel-info">
+                <div class="vertical-panel-title">THE FCI, Chennai</div>
+                <div class="line"></div>
+            </div>
+            <!-- <ul class="social-list">
+                <li>
+                    <a href="" class="fa fa-instagram"></a>
+                </li>
+                <li>
+                    <a href="" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                    <a href="" class="fa fa-behance"></a>
+                </li>
+                <li>
+                    <a href="" class="fa fa-facebook"></a>
+                </li>
+            </ul> -->
+        </div>
+
+        <!-- Navigation Desctop -->
+
+        <nav class="navbar-desctop visible-md visible-lg">
+            <div class="container">
+                <a href="#top" class="brand js-target-scroll">
+                    THE FOOD <br>CONSULTANT INDIA<span class="text-primary">.</span>
+          </a>
+                <ul class="navbar-desctop-menu">
+                    <li class="active">
+                        <a href="#">Home</a>
+
+                    </li>
+                    <li>
+                        <a href="#about">About us</a>
+                    </li>
+                    <!-- <li id="states">
+                        <a href="states.html">States <i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="states.html">All States</a></li>
+                            <li><a href="/andhra.html">Andhra Pradesh</a></li>
+                            <li>
+                                <a href="/arunachal.html">Arunachal Pradesh</a>
+                            </li>
+                            <li>
+                                <a href="/assam.html">Assam</a>
+                            </li>
+                            <li>
+                                <a href="/bihar.html">Bihar</a>
+                            </li>
+                            <li>
+                                <a href="/karnataka.html">Karnataka</a>
+                            </li>
+                            <li>
+                                <a href="/kerala.html">Kerala</a>
+                            </li>
+                            <li>
+                                <a href="/chhattisgarh.html">Chhattisgarh</a>
+                            </li>
+                            <li>
+                                <a href="/up.html">Uttar Pradesh</a>
+                            </li>
+                            <li>
+                                <a href="/goa.html">Goa</a>
+                            </li>
+                            <li>
+                                <a href="/gujarat.html">Gujarat</a>
+                            </li>
+                            <li>
+                                <a href="/haryana.html">Haryana</a>
+                            </li>
+                            <li>
+                                <a href="/himachal.html">Himachal Pradesh</a>
+                            </li>
+                            <li>
+                                <a href="/jammu.html">Jammu and Kashmir</a>
+                            </li>
+                            <li>
+                                <a href="/jharkhand.html">Jharkhand</a>
+                            </li>
+                            <li>
+                                <a href="/bengal.html">West Bengal</a>
+                            </li>
+                            <li>
+                                <a href="/madhya.html">Madhya Pradesh</a>
+                            </li>
+                            <li>4
+                                <a href="/maharashtra.html">Maharashtra</a>
+                            </li>
+                            <li>
+                                <a href="/manipur.html">Manipur</a>
+                            </li>
+                            <li>
+                                <a href="/meghalaya.html">Meghalaya</a>
+                            </li>
+                            <li>
+                                <a href="/mizoram.html">Mizoram</a>
+                            </li>
+                            <li>
+                                <a href="/nagaland.html">Nagaland</a>
+                            </li>
+                            <li>
+                                <a href="/assam.html">Assam</a>
+                            </li>
+                            <li>
+                                <a href="/orissa.html">Orissa</a>
+                            </li>
+                            <li>
+                                <a href="/punjab.html">Punjab</a>
+                            </li>
+                            <li>
+                                <a href="/rajasthan.html">Rajasthan</a>
+                            </li>
+                            <li>
+                                <a href="/punjab.html">Punjab</a>
+                            </li>
+                            <li>
+                                <a href="/sikkim.html">Sikkim</a>
+                            </li>
+                            <li>
+                                <a href="/tamilnadu.html">Tamil Nadu</a>
+                            </li>
+                            <li>
+                                <a href="/telangana.html">Telangana</a>
+                            </li>
+                            <li>
+                                <a href="/tripura.html">Tripura</a>
+                            </li>
+                            <li>
+                                <a href="/uttarakhand.html">Uttarakhand</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li class="">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Navigation Mobile -->
+
+        <nav class="navbar-mobile">
+            <a href="#top" class="brand js-target-scroll">
+                THE FOOD <br>CONSULTANT INDIA<span class="text-primary">.</span>
+        </a>
+
+            <!-- Navbar Collapse -->
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbar-mobile">
+                <ul class="navbar-nav-mobile">
+                    <li class="active">
+                        <a href="#">Home <i class="fa fa-angle-down"></i></a>
+
+                    </li>
+                    <li>
+                        <a href="#about">About us</a>
+                    </li>
+                    <!-- <li id="states">
+                        <a href="#">States <i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="states.html">All States</a></li>
+                            <li><a href="/andhra.html">Andhra Pradesh</a></li>
+                            <li>
+                                <a href="/arunachal.html">Arunachal Pradesh</a>
+                            </li>
+                            <li>
+                                <a href="/assam.html">Assam</a>
+                            </li>
+                            <li>
+                                <a href="/bihar.html">Bihar</a>
+                            </li>
+                            <li>
+                                <a href="/karnataka.html">Karnataka</a>
+                            </li>
+                            <li>
+                                <a href="/kerala.html">Kerala</a>
+                            </li>
+                            <li>
+                                <a href="/chhattisgarh.html">Chhattisgarh</a>
+                            </li>
+                            <li>
+                                <a href="/up.html">Uttar Pradesh</a>
+                            </li>
+                            <li>
+                                <a href="/goa.html">Goa</a>
+                            </li>
+                            <li>
+                                <a href="/gujarat.html">Gujarat</a>
+                            </li>
+                            <li>
+                                <a href="/haryana.html">Haryana</a>
+                            </li>
+                            <li>
+                                <a href="/himachal.html">Himachal Pradesh</a>
+                            </li>
+                            <li>
+                                <a href="/jammu.html">Jammu and Kashmir</a>
+                            </li>
+                            <li>
+                                <a href="/jharkhand.html">Jharkhand</a>
+                            </li>
+                            <li>
+                                <a href="/bengal.html">West Bengal</a>
+                            </li>
+                            <li>
+                                <a href="/madhya.html">Madhya Pradesh</a>
+                            </li>
+                            <li>
+                                <a href="/maharashtra.html">Maharashtra</a>
+                            </li>
+                            <li>
+                                <a href="/manipur.html">Manipur</a>
+                            </li>
+                            <li>
+                                <a href="/meghalaya.html">Meghalaya</a>
+                            </li>
+                            <li>
+                                <a href="/mizoram.html">Mizoram</a>
+                            </li>
+                            <li>
+                                <a href="/nagaland.html">Nagaland</a>
+                            </li>
+                            <li>
+                                <a href="/assam.html">Assam</a>
+                            </li>
+                            <li>
+                                <a href="/orissa.html">Orissa</a>
+                            </li>
+                            <li>
+                                <a href="/punjab.html">Punjab</a>
+                            </li>
+                            <li>
+                                <a href="/rajasthan.html">Rajasthan</a>
+                            </li>
+                            <li>
+                                <a href="/punjab.html">Punjab</a>
+                            </li>
+                            <li>
+                                <a href="/sikkim.html">Sikkim</a>
+                            </li>
+                            <li>
+                                <a href="/tamilnadu.html">Tamil Nadu</a>
+                            </li>
+                            <li>
+                                <a href="/telangana.html">Telangana</a>
+                            </li>
+                            <li>
+                                <a href="/tripura.html">Tripura</a>
+                            </li>
+                            <li>
+                                <a href="/uttarakhand.html">Uttarakhand</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="#services">Services</i></a>
+
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Layout -->
+
+    <div class="layout">
+
+        <!-- Home -->
+
+        <main class="main">
+
+            <div class="arrow-left"></div>
+            <div class="arrow-right"></div>
+
+            <!-- Start revolution slider -->
+
+            <div class="rev_slider_wrapper">
+                <div id="rev_slider" class="rev_slider fullscreenbanner">
+                    <ul>
+
+                        <!-- Slide 1 -->
+
+                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-masterspeed="1000" data-fsmasterspeed="1000">
+
+                            <!-- Main image-->
+
+                            <img src="img/slider/slide1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+
+                            <!-- Layer 1 -->
+
+                            <div class="slide-title tp-caption tp-resizeme" data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']" data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']" data-fontsize="['50','45', '35']" data-lineheight="['80','75', '65']"
+                                data-width="['1100','700','550']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="500" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">Food License (FSSAI)
+                            </div>
+
+                            <!-- Layer 2 -->
+
+                            <div class="slide-subtitle tp-caption tp-resizeme" data-x="['right','right','right','right']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['75','105']" data-fontsize="['18']" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;" data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none"
+                                data-splitout="none">The FSSAI maintains and promotes public<br> health by regulating and supervising food <br>safety across the country
+                            </div>
+
+                            <!-- Layer 3 -->
+
+                            <div class="tp-caption" data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['195','215']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="#contact-form" class="btn glow-on-hover__small mob-button js-target-scroll">For <br>Consultation </a>
+                            </div>
+                        </li>
+
+                        <!-- Slide 2 -->
+
+                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000">
+
+                            <!-- Main image -->
+
+                            <img src="img/slider/slide2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+
+                            <!-- Layer 1 -->
+
+                            <div class="slide-title tp-caption tp-resizeme" data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']" data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-55']" data-fontsize="['50','45', '35']" data-lineheight="['80','75','65']"
+                                data-width="['1100','700','500']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="500" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style="color:#000000 ;">
+                            </div>
+
+
+                            <!-- Layer 2 -->
+
+                            <div class="slide-subtitle tp-caption tp-resizeme" data-x="['right','right','right','right']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['75','105']" data-fontsize="['18']" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;" data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none"
+                                data-splitout="none" style="color:#ffffff;font-weight: bold;">
+                                THE FOOD CONSULTANT INDIA offers specialized, <br>dedicated service under FoSCoS( Food Safety Compliance System)
+                            </div>
+
+                            <!-- Layer 3 -->
+
+                            <div class="tp-caption" data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['195','215']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="#contact-form" class="btn glow-on-hover__small mob-button js-target-scroll">For <br>Consultation </a>
+                            </div>
+                        </li>
+
+                        <!-- Slide 3 -->
+
+                        <li data-transition="slotzoom-horizontal" data-slotamount="7" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000">
+
+                            <!-- Main image-->
+
+                            <img src="img/slider/slide1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+
+                            <!-- Layer 1 -->
+
+                            <div class="slide-title tp-caption tp-resizeme" data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']" data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']" data-fontsize="['50','45', '35']" data-lineheight="['80','75', '65']"
+                                data-width="['1000','700','550']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="500" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">NEW PRODUCT DEVELOPMENT
+                            </div>
+
+
+                            <!-- Layer 2 -->
+
+                            <div class="slide-subtitle tp-caption tp-resizeme" data-x="['right','right','right','right']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['75','105']" data-fontsize="['18']" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;" data-transform_out="opacity:0;s:1000;s:1000;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="1500" data-splitin="none"
+                                data-splitout="none">Recipe and menu development <br> New Product Development
+                            </div>
+
+                            <!-- Layer 3 -->
+
+                            <div class="tp-caption" data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['195','215']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;"
+                                data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                data-mask_out="x:inherit;y:inherit;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="#contact-form" class="btn glow-on-hover__small mob-button js-target-scroll">For <br>Consultation </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+
+
+        <!-- About  -->
+
+        <section id="about" class="about section" id="about">
+
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">About<span class="text-primary">Us</span></h2>
+                    <strong class="fade-title-left">AboutUs</strong>
+                    <p class="entry-text1">As experts on Food regulation, Scientific affairs and New product development with over two decades of industrial experience gained from renowned Indian companies and a global conglomerate open up our services to the food industry.
+
+                    </p>
+                    <p class="entry-text1">We are a team of regulatory and Scientific Affairs, Food Technologists & Culinary experts from renowned institutes ready to assist in your new venture.</p>
+                </header>
+
+            </div>
+        </section>
+
+        <section class="experience section">
+            <a href="register-form.php" style="text-decoration: none;">
+                <div class="container">
+                    <h2 class="section-title">FSSAI <span class="text-primary">services</span></h2>
+                </div>
+                <div class="container">
+                    <div class="text-parallax" data-stellar-background-ratio="0.9" style="background-image: url('img/bg/text-1.jpg');">
+                        <div class="text-parallax-content">NEW </div>
+                    </div>
+                    <h4 class="experience-info wow fadeInRight"><span class="text-primary">FSSAI Application</span><br> Registration</h4>
+                </div>
+            </a>
+        </section>
+
+
+
+
+        <!-- Services -->
+
+        <section class="price-sec container-fluid serv-sec" id="services">
+            <!-- <div class="row ptables-head" id="menu1">
+                <h1 class="text-center">Why you should go with THE FOOD CONSULTANT INDIA ?</h1>
+            </div> -->
+
+            <h2 class="section-title">Our<span class="text-primary">Services</span></h2>
+            <strong class="fade-title-left">Services</strong>
+
+        </section>
+
+        <!-- Menus 1 -->
+        <section class="price-sec">
+            <div class="container-fluid">
+                <div class="container">
+                    <h4 class="text-center">THE FOOD CONSULTANT INDIA's specialized ,dedicated service under FoSCoS( Food Safety Compliance System) include</h4>
+                    <div class="row">
+
+                        <div class="col-sm-6 price-table">
+                            <div class="card text-center">
+                                <div class="title">
+                                    <!-- <i class="fa fa-plane"></i> -->
+                                    <h2>FOOD REGULATORY AND </h2>
+                                    <h2 style="margin-bottom: 8%;"> SCIENTIFIC AFFAIRS</h2>
+                                </div>
+                                <div class="option">
+                                    <ol>
+                                        <li> NEW FSSAI LICENSE :STATE & CENTRAL</li>
+                                        <li> MODIFICATION OF EXISTING LICENSE</li>
+                                        <li> HEALTH SUPPLEMENTS AND NUTRACEUTICALS</li>
+                                        <li> IMPORT LICENSE AND EXPORT LICENCE/ EOU</li>
+                                        <li> CLAIM APPROVAL - Application, documentation, Dossier on Claim</li>
+                                        <li> Non specified food /ingredient approval</li>
+                                        <li> PROPRIETARY FOOD PRODUCTS</li>
+                                        <li> FSSAI compliance check for categorisation of product / ingredients</li>
+                                        <li>Labels and Claim Compliance check</li>
+                                    </ol>
+                                </div>
+                                <a href="register-form.php">Register Now</a>
+                            </div>
+                        </div>
+                        <!-- (1) ===================================-->
+                        <div class="col-sm-6 price-table">
+                            <div class="card text-center">
+                                <div class="title">
+                                    <!-- <i class="fa fa-plane"></i> -->
+                                    <h2>NEW PRODUCT</h2>
+                                    <h2>DEVELOPMENT</h2>
+                                </div>
+                                <!-- <div class="price">
+                                    <h4><sup>$</sup>35</h4>
+                                </div> -->
+                                <div class="option" style="padding: 1.2em 0 4.6em;">
+                                    <ol>
+                                        <li> RTE AND RTC Products</li>
+                                        <li> Bakery and pastries</li>
+                                        <li> Beverages non dairy, Health drinks</li>
+                                        <li> Health supplements</li>
+                                        <li> Nutraceutical</li>
+                                        <li> Spice mix and compounds</li>
+                                        <li> Masalas</li>
+                                        <li> Flavour Booster and Flavour Enhancer premix</li>
+                                    </ol>
+                                    <div class="off-2"></div>
+                                </div>
+                                <a href="register-form.php">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="layout">
+
+            <div class="page-lines">
+                <div class="container">
+                    <div class="col-line col-xs-4">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-line col-xs-4">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-line col-xs-4">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            </main>
+
+            <div class="content" id="contact">
+                <h2 class="section-title" style="padding:4%;">Locate <span class="text-primary">US</span></h2>
+
+                <!-- Contacts Details -->
+
+                <section class="contact-details">
+                    <div class="col-map col-md-7">
+                        <!-- <div id="map" class="gmap col-md-7"></div> -->
+                        <iframe class="gmap col-md-7" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7514566834416!2d80.13888271477141!3d13.051486190803537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261a10741d97b%3A0xfadf2f31d23a88f3!2sICL%20Main%20Rd%2C%20ICL%20Home%20Town%2C%20Iyyappanthangal%2C%20Chennai%2C%20Tamil%20Nadu%20600077!5e0!3m2!1sen!2sin!4v1610733105262!5m2!1sen!2sin"
+                            width="640" height="480"></iframe>
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7514566834416!2d80.13888271477141!3d13.051486190803537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261a10741d97b%3A0xfadf2f31d23a88f3!2sICL%20Main%20Rd%2C%20ICL%20Home%20Town%2C%20Iyyappanthangal%2C%20Chennai%2C%20Tamil%20Nadu%20600077!5e0!3m2!1sen!2sin!4v1610733105262!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+                    </div>
+                    <div class="contact-info col-md-5 col-md-offset-7">
+                        <div class="contact-info-content">
+                            <div class="contact-info-title">Contacts</div>
+                            <div class="phone contact-row">
+                                <i class="fa fa-phone"></i>
+                                <div class="contact-body">
+                                    <h4>Phone</h4>
+                                    <div class="phone-row">+91 94867 86527</div>
+                                    <div class="phone-row">044 48689901</div>
+                                    <!-- <div class="phone-row">+0 543 554 44-25</div> -->
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <i class="fa fa-envelope"></i>
+                                <div class="contact-body">
+                                    <h4>Email</h4>
+                                    <div class="contact-content">reachtfci@gmail.com</div>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <i class="fa fa-map-marker"></i>
+                                <div class="contact-body">
+                                    <h4>Address</h4>
+                                    <div class="contact-content">55/1 ICL Home Town, Noombal <br>Chennai-600077</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <!-- Contacts -->
+                <div class="content" id="contact-form">
+
+                    <!--Consultation -->
+
+                    <section class="contacts section">
+                        <div class="container">
+                            <header class="section-header">
+                                <h2 class="section-title">Contact <span class="text-primary">Us</span></h2>
+                                <strong class="fade-title-right">Contact Us</strong>
+                            </header>
+                            <div class="section-content">
+                                <div class="row-base row text-center">
+                                    <h1>To get the best Expertise, <br> Hire the best FSSAI Consultant</h1>
+                                    <br>
+                                    <div class="form-submit text-center"><button class="btn btn-color glow-on-hover wow swing">NOW!</button></div>
+
+                                    <!-- <div class="root" style="display: none;">
+                                        <div>
+                                            <div class="side left"></div>
+                                            <div class="side top"></div>
+                                            <div class="side right"></div>
+                                            <div class="side bottom"></div>
+                                        </div>
+                                    </div> -->
+
+                                </div>
+                                <div class="col-base  col-md-12">
+                                    <form class="" id="consultform" novalidate="novalidate">
+                                        <div class="row-field row">
+                                            <div class="col-field col-sm-6 col-md-4">
+                                                <div class="form-group">
+                                                    <!-- <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Name'" placeholder="Enter Your Name"> -->
+                                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                                    <!-- <div id="error-name">Error</div>
+                                                    <div id="success-name">Sucess</div> -->
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <!-- <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Enter Your Email"> -->
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email *">
+                                                </div>
+                                            </div>
+                                            <div class="col-field col-sm-6 col-md-4">
+                                                <div class="form-group">
+                                                    <!-- <input class="form-control" name="contact" id="contact" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Contact'" placeholder="Enter Your Contact"> -->
+                                                    <input type="tel" class="form-control" name="contact" name="contact" placeholder="Phone">
+                                                </div>
+                                                <div class="form-group">
+                                                    <!-- <input class="form-control" name="company" id="company" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Name'" placeholder="Enter Company Name"> -->
+                                                    <input type="text" class="form-control" name="company" id="company" placeholder="Company">
+                                                </div>
+                                            </div>
+                                            <div class="col-field col-sm-12 col-md-4">
+                                                <div class="form-group">
+                                                    <!-- <textarea class="form-control w-100" name="message" id="message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Prayer Request'" placeholder="Enter Your Message"></textarea> -->
+                                                    <textarea class="form-control" name="message" id="message" placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-message col-field col-sm-12">
+                                                <div class="form-group">
+                                                    <div class="success-reg"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
+                                                    <div class="error-reg">We're sorry, but something went wrong</div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-submit text-right"><button type="submit" id="submit" class="btn  glow-on-hover__small wow swing">Send <i class="icon-next"></i></button></div>
+                                        <div class="success-reg"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
+                                        <!-- <div class="error-reg">We're sorry, but something went wrong</div> -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- <section class="contacts section">
+                    <div class="container">
+
+                        <div class="section-content">
+                            <div class="row-base row">
+                                <div class="col-address col-base col-md-4">
+                                    +7 (212) 654-33-35<br> +7 (212) 287-85-22<br> info@goarch.com
+                                    <br> USA, New York, 57 Quigley Bridge
+                                </div>
+                                <div class="col-base  col-md-8">
+                                    <form class="js-ajax-form">
+                                        <div class="row-field row">
+                                            <div class="col-field col-sm-6 col-md-4">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" required placeholder="Email *">
+                                                </div>
+                                            </div>
+                                            <div class="col-field col-sm-6 col-md-4">
+                                                <div class="form-group">
+                                                    <input type="tel" class="form-control" name="phone" placeholder="Phone">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="company" placeholder="Company">
+                                                </div>
+                                            </div>
+                                            <div class="col-field col-sm-12 col-md-4">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-message col-field col-sm-12">
+                                                <div class="form-group">
+                                                    <div class="success-message"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
+                                                    <div class="error-message">We're sorry, but something went wrong</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-submit text-right"><button class="btn btn-shadow-2 wow swing">Send <i class="icon-next"></i></button></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
+                <!-- Footer -->
+
+                <footer id="footer" class="footer">
+                    <div class="container">
+                        <div class="row-base row">
+                            <div class="col-base text-left-md col-md-6">
+                                <a href="#" class="brand">
+The Food Consultant India<span class="text-primary">.</span>
+</a>
+                            </div>
+                            <!-- <div class="text-center-md col-base col-md-4">
+                                <a href="https://themeforest.net/user/murren20" class="author-link">
+MENUS
+</a>
+                            </div> -->
+                            <div class="text-right-md col-base col-md-6">
+                                © FCI
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>. All Rights Reserved.
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+
+                <!-- Lines -->
+
+                <div class="page-lines">
+                    <div class="container">
+                        <div class="col-line col-xs-4">
+                            <div class="line"></div>
+                        </div>
+                        <div class="col-line col-xs-4">
+                            <div class="line"></div>
+                        </div>
+                        <div class="col-line col-xs-4">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact/jquery.form.js"></script>
+
+    <script type="text/javascript" src="js/contact/contact.js"></script>
+    <script type="text/javascript" src="js/contact/jquery.form.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+    <!-- SLIDER REVOLUTION -->
+    <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
+    <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS   -->
+    <script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.video.min.js"></script>
+
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/interface.js"></script>
+
+
+    <!-- <script type="text/javascript" src="js/contact/mail-script.js"></script> -->
+    <!-- <script type="text/javascript" src="js/contact/jquery.ajaxchimp.min.js"></script> -->
+
+
+
+
+
+
+
+    <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU"></script> -->
+    <!-- <script src="js/gmap.js"></script> -->
+
+    <!-- contact js -->
+    <!-- <script src="js/jquery.validate.min.js"></script> -->
+    <!-- <script src="js/contact/mail-script.js"></script> -->
+
+
+</body>
+
+</html>
