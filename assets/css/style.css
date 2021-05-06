@@ -29,6 +29,25 @@ h6 {
     flex-direction: row-reverse;
 }
 
+.btn-blue {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1977cc;
+}
+
+#white_text {
+    color: white
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -194,10 +213,12 @@ h6 {
 
 #header .logo a {
     color: #2c4964;
+    font-size: 0.8em;
 }
 
 #header .logo img {
     max-height: 40px;
+    padding-right: 30px;
 }
 
 @media (max-width: 992px) {
@@ -364,7 +385,7 @@ h6 {
 .mobile-nav-toggle {
     position: fixed;
     right: 15px;
-    top: 15px;
+    top: 20px;
     z-index: 9998;
     border: 0;
     background: none;
