@@ -50,6 +50,7 @@
     
     .owl-carousel .owl-item img {
         height: 8.6em;
+        width: 100%;
     }
     
     .hero {
