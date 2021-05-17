@@ -56,47 +56,6 @@
     .hero {
         margin-bottom: -130px !important;
     }
-    
-    .success-message {
-        display: none;
-    }
-    
-    .error-message {
-        display: none;
-    }
-    
-    .success-reg {
-        display: none !important;
-        color: chartreuse;
-    }
-    
-    .error-reg {
-        display: none !important;
-        color: red;
-    }
-    
-    .isactive {
-        display: block !important;
-        /* height: 12rem !important; */
-    }
-    
-    label.error {
-        display: none;
-        color: red;
-    }
-    
-    .phone-icon i {
-        font-size: 30px;
-        color: #1977cc;
-        width: 44px;
-        height: 44px;
-        background: #d6e9fa;
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        border-radius: 50px;
-        transition: all 0.3s ease-in-out;
-    }
     /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -791,9 +750,9 @@
     }
     
     .about .icon-boxes h3 {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 700;
-        color: #1977cc;
+        color: #2c4964;
         margin-bottom: 15px;
     }
     
@@ -835,7 +794,7 @@
     }
     
     .about .icon-box .title a {
-        color: #1977cc;
+        color: #343a40;
         transition: 0.3s;
     }
     
@@ -846,8 +805,7 @@
     .about .icon-box .description {
         margin-left: 85px;
         line-height: 24px;
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 14px;
     }
     
     .about .video-box {
