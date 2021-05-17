@@ -843,15 +843,11 @@
 
                 <div class="section-title">
                     <h2>Make an Appointment</h2>
-                    <div class="phone phone-icon">
-                        <i class="icofont-phone"></i>
-                        <h4 style="margin-top: 6px;">Call:</h4>
-                        <h2><a href="tel:+045612622248">04561-262224-8</a></h2>
-
-                    </div>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                        quidem hic quas.</p>
                 </div>
 
-                <form role="form" class="php-email-form" id="appointform" novalidate="novalidate">
+                <form role="form" action="mail.php" class="php-email-form" id="appointform" novalidate="novalidate">
                     <div class="form-row">
                         <div class="col-md-4 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -902,7 +898,7 @@
                         </div>
                     </div>
                     <div class="text-center"><button type="submit">Make an Appointment</button></div>
-                    <!-- <div class="success-reg"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div> -->
+                    <div class="success-reg"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
                 </form>
 
             </div>
@@ -1316,7 +1312,7 @@
 
                     <div class="col-lg-8 mt-5 mt-lg-0">
 
-                        <form role="form" class="php-email-form" id="contactform" novalidate="novalidate">
+                        <form role="form" action="./contact.php" class="php-email-form" id="contactform" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="col-md-4 form-group">
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -1343,7 +1339,7 @@
                                 </div>
                             </div>
                             <div class="text-center"><button type="submit">Contact Us</button></div>
-                            <!-- <div class="success-reg"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div> -->
+                            <div class="success-reg"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
                         </form>
 
                     </div>
